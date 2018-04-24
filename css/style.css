@@ -16,6 +16,7 @@ Black : #000
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+
 }
 
 body {
@@ -344,10 +345,10 @@ span {
   padding: 60px 0px 60px 0px;
 }
 
-#wrench:hover {
+#wrench {
   color: gold;
   text-transform:uppercase;
-  text-shadow: 3px 3px black;
+  text-shadow: 1px 1px black;
   /* padding-left: 41.5%; */
 }
 
@@ -384,26 +385,28 @@ span {
   text-transform: uppercase;
 }
 
-/* HTML5 orange  */
+/* HTML5 #ff9d00  */
 #skill-html5 {
   width: 50px;
 }
-#skill-html5:hover {
-  color: orange;
+#skill-html5 {
+  color: #ff9d00;
 }
-#skill-html5:hover + #title-html5{
+#skill-html5 + #title-html5 {
+  font-family: 'Noto Serif', serif;
   margin: -46px 0px 0px 60px;
-  color: orange;
+  color: #ff9d00;
   text-transform: uppercase;
-  text-shadow: 1.5px 1.5px black;
+  /* text-shadow: 1.5px 1.5px black; */
 }
-#info-html5:hover{
-  background: orange;
+#info-html5 {
+  font-family: 'Noto Serif', serif;
+  background: #ff9d00;
   border-radius: 4px;
   color:white;
-  text-shadow: 1.5px 1.5px black;
+  /* text-shadow: 1.5px 1.5px black; */
   font-size: 18px;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
   text-align:left;
 }
 
