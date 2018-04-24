@@ -249,6 +249,7 @@ span {
 
 #home-cover {
   height: 100%;
+  width: auto;
   background-image: url("../img/bg-home01.jpg");
 }
 
