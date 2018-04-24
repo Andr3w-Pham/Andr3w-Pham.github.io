@@ -1,0 +1,463 @@
+/*========================================================================
+DEFAULT VALUES:
+
+Font Family : Roboto Condensed
+
+Greenish Blue : #0488f4 (Buttons, Icons, Links, & Background)
+Steel Gray : #41464b (Heading)
+Blue Bayoux : #64707b (Paragraphs)
+white : #fff (Text with Black Backgrounds)
+Black : #000
+
+========================================================================== */
+
+/* General CSS */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+b h3 {
+  text-transform: uppercase;
+}
+
+
+/*========================================================================
+                          Start of  Typer
+========================================================================== */
+#test1 {
+  text-align: left;
+  font-size: 1.25em;
+  font-family: monospace;
+  /* white-space:nowrap = Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered  */
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+#test2 {
+  text-align: left;
+  font-size: 1.25em;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+#test3 {
+  text-align: left;
+  font-size: 1.25em;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+#test4 {
+  text-align: left;
+  font-size: 1.25em;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+span {
+  color: #fff;
+  font-weight: bold;
+}
+
+.line1 {
+  color: orange;
+  -webkit-animation: type .5s 1s steps(20, end) forwards;
+  -moz-animation: type .5s 1s steps(20, end) forwards;
+  -o-animation: type .5s 1s steps(20, end) forwards;
+  animation: type .5s 1s steps(20, end) forwards;
+}
+
+.cursor1 {
+  -webkit-animation: blink 1s 2s 2 forwards;
+  -moz-animation: blink 1s 2s 2 forwards;
+  -o-animation: blink 1s 2s 2 forwards;
+  animation: blink 1s 2s 2 forwards;
+}
+
+.line2 {
+  color: #0488f4;
+  -webkit-animation: type .5s 4.25s steps(20, end) forwards;
+  -moz-animation: type .5s 4.25s steps(20, end) forwards;
+  -o-animation: type .5s 4.25s steps(20, end) forwards;
+  animation: type .5s 4.25s steps(20, end) forwards;
+}
+
+.cursor2 {
+  -webkit-animation: blink 1s 5.25s 2 forwards;
+  -moz-animation: blink 1s 5.25s 2 forwards;
+  -o-animation: blink 1s 5.25s 2 forwards;
+  animation: blink 1s 5.25s 2 forwards;
+}
+
+.line3 {
+  color: purple;
+  -webkit-animation: type .5s 7.5s steps(20, end) forwards;
+  -moz-animation: type .5s 7.5s steps(20, end) forwards;
+  -o-animation: type .5s 7.5s steps(20, end) forwards;
+  animation: type .5s 7.5s steps(20, end) forwards;
+}
+
+.cursor3 {
+  -webkit-animation: blink 1s 8.5s 2 forwards;
+  -moz-animation: blink 1s 8.5s 2 forwards;
+  -o-animation: blink 1s 8.5s 2 forwards;
+  animation: blink 1s 8.5s 2 forwards;
+}
+
+.line4 {
+  color: #fff;
+  -webkit-animation: type .5s 10.75s steps(20, end) forwards;
+  -moz-animation: type .5s 10.75s steps(20, end) forwards;
+  -o-animation: type .5s 10.75s steps(20, end) forwards;
+  animation: type .5s 10.75s steps(20, end) forwards;
+}
+
+.cursor4 {
+  -webkit-animation: blink 1s 11.5s infinite;
+  -moz-animation: blink 1s 8.5s infinite;
+  -o-animation: blink 1s 8.5s infinite;
+  animation: blink 1s 8.5s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  to {
+    width: 17em;
+  }
+}
+
+@-moz-keyframes type {
+  to {
+    width: 17em;
+  }
+}
+
+@-o-keyframes type {
+  to {
+    width: 17em;
+  }
+}
+
+@keyframes type {
+  to {
+    width: 17em;
+  }
+}
+
+/*========================================================================
+                             End of Typer
+========================================================================== */
+
+/*========================================================================
+                                  HOME
+========================================================================== */
+/* Testing Music  */
+#music: {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+#home {
+  height: 100%
+  overflow-x:hidden;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url("../img/bg-home01.jpg");
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  /* table-cell: Allows the element to behave like a <td> element */
+  display: table-cell;
+  vertical-align: middle;
+  text-align:left;
+  padding:30px;
+}
+
+#home-heading h3 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  margin: -10px 0 50px 0;
+  text-transform:uppercase;
+  text-shadow: 4px 4px black;
+
+}
+
+/*========================================================================
+                            PARALLAX (Generic)
+========================================================================== */
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*========================================================================
+                            BUTTONS (Generic)
+========================================================================== */
+
+/* General btn is used for other btns which share the common style so we don't have to repeat ourselves when we create more buttons.  */
+
+.btn-general {
+  border-width: 2px;
+  border-radius: 0;
+  /* Padding is used to create space in the anchor element "[READ MORE]".(Padding format: TOP, RIGHT, BOTTOM, LEFT) */
+  padding: 12px 26px 12px 26px font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+  margin-top: 60px;
+}
+
+/* The :hover selector is used to select elements when you mouse over them. */
+
+.btn-white:hover, .btn-white:focus {
+  background-color: #fff;
+  color: #41464b;
+}
+
+/*========================================================================
+                                Animate
+========================================================================== */
+
+#home-cover, #home-heading, #home-btn  {
+  animation-duration: .5s;
+}
+
+#home-cover {
+  animation-delay: .1s;
+
+}
+
+#home-heading {
+  animation-delay: .5s;
+
+}
+
+#home-btn   {
+  animation-delay: 1s;
+}
+
+/*========================================================================
+                          Content (Generic)
+========================================================================== */
+/* Padding format: TOP, RIGHT, BOTTOM, LEFT */
+.content-box {
+  padding: 60px 0px 60px 0px;
+}
+
+#wrench:hover {
+  color: gold;
+  text-transform:uppercase;
+  text-shadow: 3px 3px black;
+  /* padding-left: 41.5%; */
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  /* marign format: TOP, RIGHT, BOTTOM, LEFT */ */
+  margin: 0 0 30px 0;
+
+}
+
+.content-title-underline {
+  width: 324px;
+  height: 3px;
+  background-color: #0488f4 ;
+  margin: 0 auto 50px auto;
+
+}
+
+/*========================================================================
+                          Skills
+========================================================================== */
+.skill-item {
+  /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#my-skills-title {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+/* HTML5 orange  */
+#skill-html5 {
+  width: 50px;
+}
+#skill-html5:hover {
+  color: orange;
+}
+#skill-html5:hover + #title-html5{
+  margin: -46px 0px 0px 60px;
+  color: orange;
+  text-transform: uppercase;
+  text-shadow: 1.5px 1.5px black;
+}
+#info-html5:hover{
+  background: orange;
+  border-radius: 4px;
+  color:white;
+  text-shadow: 1.5px 1.5px black;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+  text-align:left;
+}
+
+
+/* CSS 3 #0488f4  */
+#skill-css3 {
+  width: 50px;
+}
+#skill-css3:hover {
+  color: #0488f4;
+}
+#skill-css3:hover + #title-css3{
+  margin: -46px 0px 0px 70px;
+  color: #0488f4;
+  text-transform: uppercase;
+  text-shadow: 1.5px 1.5px black;
+}
+#info-css3 {
+  margin: 29.5px 0 0 0;
+}
+#info-css3:hover {
+  background: #0488f4;
+  border-radius: 4px;
+  color:white;
+  text-shadow: 1.5px 1.5px black;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+  margin: 29.5px 0 0 0;
+  text-align:left;
+}
+
+
+/* Bootsrap purple  */
+#skill-bootstrap {
+  width: 50px;
+}
+#skill-bootstrap:hover {
+  color: purple;
+}
+#skill-bootstrap:hover + #title-bootstrap{
+  margin: -46px 0px 0px 70px;
+  color: purple;
+  text-transform: uppercase;
+}
+
+/* RUBY red  */
+#skill-ruby {
+  width: 50px;
+}
+#skill-ruby:hover {
+  color: red;
+}
+#skill-ruby:hover + #title-ruby{
+  margin: -46px 0px 0px 80px;
+  color: red;
+  text-transform: uppercase;
+}
