@@ -388,13 +388,13 @@ span {
 /* HTML5 #ff9d00  */
 #skill-html5 {
   width: 50px;
-}
-#skill-html5 {
   color: #ff9d00;
+  margin: 0 auto;
+
 }
 #skill-html5 + #title-html5 {
   font-family: 'Noto Serif', serif;
-  margin: -46px 0px 0px 60px;
+  margin: -46px 0px 0px 70px;
   color: #ff9d00;
   text-transform: uppercase;
   /* text-shadow: 1.5px 1.5px black; */
