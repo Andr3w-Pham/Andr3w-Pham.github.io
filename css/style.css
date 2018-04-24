@@ -248,10 +248,10 @@ span {
 }
 
 #home-cover {
-  height: 200%;
-  min-height: 100px;
+  height: 100%;
+  /* min-height: 100px; */
   width: auto;
-  background-image: url("../img/bg-home01.jpg");
+  background-image: url("../img/bg-home01-fotor.jpg");
 }
 
 #home-content-box {
@@ -265,7 +265,7 @@ span {
   display: table-cell;
   vertical-align: middle;
   text-align:left;
-  padding:30px;
+  padding: 10%;
 }
 
 #home-heading h3 {
