@@ -77,14 +77,16 @@
   <section id="skills">
 
     <div class="content-box">
-      <div class="content-title">
+      <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
+    data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
+      <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
         <h3 id="my-skills-title">What I've Learnt So Far</h3>
         <div class="content-title-underline"></div>
       </div>
 
       <div class="container">
 
-        <div class="row">
+        <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
 
           <!-- Start of 1st icon  -->
           <div class="col-md-6">
@@ -125,7 +127,7 @@
           </div>
           <!-- End of 2nd icon  -->
         </div>
-        <div class="row">
+        <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
           <!-- Start of 3rd icon  -->
           <div class="col-md-6">
             <div class="skill-item">
@@ -203,6 +205,9 @@
 
   <!-- bootstrap JS  -->
   <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- WOW JS (Requires jQuery Library so therefor we place it after jquery.js)  -->
+  <script src="js/wow/wow.min.js"></script>
 
   <!-- custom JS  -->
   <script src="js/custom.js"></script>
