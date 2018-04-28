@@ -71,7 +71,8 @@ span {
 }
 
 .line1 {
-  color: orange;
+  color: white;
+  text-shadow: 2px 2px black;
   -webkit-animation: type .5s 1s steps(20, end) forwards;
   -moz-animation: type .5s 1s steps(20, end) forwards;
   -o-animation: type .5s 1s steps(20, end) forwards;
@@ -86,7 +87,8 @@ span {
 }
 
 .line2 {
-  color: #0488f4;
+  color: white;
+  text-shadow: 2px 2px black;
   -webkit-animation: type .5s 4.25s steps(20, end) forwards;
   -moz-animation: type .5s 4.25s steps(20, end) forwards;
   -o-animation: type .5s 4.25s steps(20, end) forwards;
@@ -101,7 +103,8 @@ span {
 }
 
 .line3 {
-  color: purple;
+  color: white;
+  text-shadow: 2px 2px black;
   -webkit-animation: type .5s 7.5s steps(20, end) forwards;
   -moz-animation: type .5s 7.5s steps(20, end) forwards;
   -o-animation: type .5s 7.5s steps(20, end) forwards;
@@ -113,21 +116,6 @@ span {
   -moz-animation: blink 1s 8.5s 2 forwards;
   -o-animation: blink 1s 8.5s 2 forwards;
   animation: blink 1s 8.5s 2 forwards;
-}
-
-.line4 {
-  color: #fff;
-  -webkit-animation: type .5s 10.75s steps(20, end) forwards;
-  -moz-animation: type .5s 10.75s steps(20, end) forwards;
-  -o-animation: type .5s 10.75s steps(20, end) forwards;
-  animation: type .5s 10.75s steps(20, end) forwards;
-}
-
-.cursor4 {
-  -webkit-animation: blink 1s 11.5s infinite;
-  -moz-animation: blink 1s 8.5s infinite;
-  -o-animation: blink 1s 8.5s infinite;
-  animation: blink 1s 8.5s infinite;
 }
 
 @-webkit-keyframes blink {
@@ -276,6 +264,7 @@ span {
   font-family: 'Noto Serif', serif;
   text-transform:uppercase;
   text-shadow: 4px 4px black;
+  letter-spacing: 3px;
 
 }
 
@@ -346,13 +335,7 @@ span {
 /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
 .content-box {
   padding: 60px 0px 60px 0px;
-}
-
-#wrench {
-  color: gold;
-  text-transform:uppercase;
-  text-shadow: 1px 1px black;
-  /* padding-left: 41.5%; */
+  background-color: #231E29;
 }
 
 .content-title h3 {
@@ -384,86 +367,104 @@ span {
 
 #my-skills-title {
   text-align: center;
-  color: black;
+  color: white;
   text-transform: uppercase;
 }
 
 /* HTML5 #ff9d00  */
 #skill-html5 {
-  width: 50px;
+  width: 20%;
   color: #ff9d00;
   margin: 0 auto;
 
 }
-#skill-html5 + #title-html5 {
+#title-html5 {
   font-family: 'Noto Serif', serif;
-  margin: -46px 0px 0px 70px;
-  color: #ff9d00;
+  width: 20%;
+  margin: 0 0 0 39%;
+  color: white;
   text-transform: uppercase;
-  /* text-shadow: 1.5px 1.5px black; */
+
 }
 #info-html5 {
   font-family: 'Noto Serif', serif;
   background: #ff9d00;
   border-radius: 4px;
   color:white;
-  /* text-shadow: 1.5px 1.5px black; */
   font-size: 18px;
   padding: 10px 10px 10px 10px;
   text-align:left;
 }
 
-
 /* CSS 3 #0488f4  */
 #skill-css3 {
-  width: 50px;
-}
-#skill-css3:hover {
+  width: 20%;
   color: #0488f4;
+  margin: 0 auto;
 }
-#skill-css3:hover + #title-css3{
-  margin: -46px 0px 0px 70px;
-  color: #0488f4;
+#title-css3{
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 0 0 0 41.7%;
+  color: white;
   text-transform: uppercase;
-  text-shadow: 1.5px 1.5px black;
 }
 #info-css3 {
-  margin: 29.5px 0 0 0;
-}
-#info-css3:hover {
+  font-family: 'Noto Serif', serif;
   background: #0488f4;
   border-radius: 4px;
   color:white;
-  text-shadow: 1.5px 1.5px black;
   font-size: 18px;
-  padding: 0 10px 0 10px;
-  margin: 29.5px 0 0 0;
+  padding: 10px 10px 10px 10px;
+  margin: 5.4% 0% 0% 0%;
   text-align:left;
 }
 
 
 /* Bootsrap purple  */
 #skill-bootstrap {
-  width: 50px;
-}
-#skill-bootstrap:hover {
+  width: 20%;
   color: purple;
+  margin: 0 auto;
 }
-#skill-bootstrap:hover + #title-bootstrap{
-  margin: -46px 0px 0px 70px;
-  color: purple;
+#title-bootstrap{
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 0 0 0 32%;
+  color: white;
   text-transform: uppercase;
+}
+#info-bootstrap {
+  font-family: 'Noto Serif', serif;
+  background: purple;
+  border-radius: 4px;
+  color:white;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  margin: 5.4% 0% 0% 0%;
+  text-align:left;
 }
 
 /* RUBY red  */
 #skill-ruby {
-  width: 50px;
-}
-#skill-ruby:hover {
+  width: 20%;
   color: red;
+  margin: 0 auto;
 }
-#skill-ruby:hover + #title-ruby{
-  margin: -46px 0px 0px 80px;
-  color: red;
+#title-ruby{
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 0 0 0 41%;
+  color: white;
   text-transform: uppercase;
+}
+#info-ruby{
+  font-family: 'Noto Serif', serif;
+  background: red;
+  border-radius: 4px;
+  color:white;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  margin: 5.4% 0% 0% 0%;
+  text-align:left;
 }
