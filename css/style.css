@@ -15,7 +15,6 @@ Black : #000
 
 html, body {
   overflow-x: hidden;
-
 }
 
 body {
@@ -26,10 +25,10 @@ b h3 {
   text-transform: uppercase;
 }
 
-
 /*========================================================================
                           Start of  Typer
 ========================================================================== */
+
 #test1 {
   text-align: left;
   font-size: 1.25em;
@@ -39,6 +38,7 @@ b h3 {
   overflow: hidden;
   width: 0;
 }
+
 #test2 {
   text-align: left;
   font-size: 1.25em;
@@ -47,6 +47,7 @@ b h3 {
   overflow: hidden;
   width: 0;
 }
+
 #test3 {
   text-align: left;
   font-size: 1.25em;
@@ -55,6 +56,7 @@ b h3 {
   overflow: hidden;
   width: 0;
 }
+
 #test4 {
   text-align: left;
   font-size: 1.25em;
@@ -220,10 +222,12 @@ span {
 /*========================================================================
                                   HOME
 ========================================================================== */
+
 /* Testing Music  */
+
 #home {
   height: 100%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 #home-cover {
@@ -243,7 +247,7 @@ span {
   /* table-cell: Allows the element to behave like a <td> element */
   display: table-cell;
   vertical-align: middle;
-  text-align:left;
+  text-align: left;
   padding: 10%;
 }
 
@@ -253,10 +257,9 @@ span {
   font-weight: 700;
   margin: -10px 0 50px 0;
   font-family: 'Noto Serif', serif;
-  text-transform:uppercase;
+  text-transform: uppercase;
   text-shadow: 4px 4px black;
   letter-spacing: 3px;
-
 }
 
 /*========================================================================
@@ -298,32 +301,43 @@ span {
   color: #41464b;
 }
 
+.btn-blue {
+  border-color: #0488f4;
+  color: #0488f4;
+  margin-top: 60px;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+  background-color: #0488f4;
+  color: white;
+}
+
 /*========================================================================
                                 Animate
 ========================================================================== */
 
-#home-cover, #home-heading, #home-btn  {
+#home-cover, #home-heading, #home-btn {
   animation-duration: .5s;
 }
 
 #home-cover {
   animation-delay: .1s;
-
 }
 
 #home-heading {
   animation-delay: .5s;
-
 }
 
-#home-btn   {
+#home-btn {
   animation-delay: 1s;
 }
 
 /*========================================================================
                           Content (Generic)
 ========================================================================== */
+
 /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
+
 .content-box {
   padding: 60px 0px 60px 0px;
   background-color: #231E29;
@@ -333,22 +347,21 @@ span {
   font-size: 30px;
   font-weight: 700;
   text-align: center;
-  /* marign format: TOP, RIGHT, BOTTOM, LEFT */ */
-  margin: 0 0 30px 0;
-
+  /* marign format: TOP, RIGHT, BOTTOM, LEFT */
+  */ margin: 0 0 30px 0;
 }
 
 .content-title-underline {
-  width: 324px;
-  height: 3px;
-  background-color: #0488f4 ;
+  width: 100px;
+  height: 2px;
+  background-color: #0488f4;
   margin: 0 auto 50px auto;
-
 }
 
 /*========================================================================
-                          Skills
+                                Skills
 ========================================================================== */
+
 .skill-item {
   /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
   padding: 20px 0 20px 0;
@@ -363,99 +376,150 @@ span {
 }
 
 /* HTML5 #ff9d00  */
+
 #skill-html5 {
   width: 20%;
   color: #ff9d00;
   margin: 0 auto;
-
 }
+
 #title-html5 {
   font-family: 'Noto Serif', serif;
   width: 20%;
   margin: 0 0 0 39%;
   color: white;
   text-transform: uppercase;
-
 }
+
 #info-html5 {
   font-family: 'Noto Serif', serif;
   background: #ff9d00;
   border-radius: 4px;
-  color:white;
+  color: white;
   font-size: 18px;
   padding: 10px 10px 10px 10px;
-  text-align:left;
+  text-align: left;
 }
 
 /* CSS 3 #0488f4  */
+
 #skill-css3 {
   width: 20%;
   color: #0488f4;
   margin: 0 auto;
 }
-#title-css3{
+
+#title-css3 {
   font-family: 'Noto Serif', serif;
   width: 20%;
   margin: 0 0 0 41.7%;
   color: white;
   text-transform: uppercase;
 }
+
 #info-css3 {
   font-family: 'Noto Serif', serif;
   background: #0488f4;
   border-radius: 4px;
-  color:white;
+  color: white;
   font-size: 18px;
   padding: 10px 10px 10px 10px;
   margin: 5.4% 0% 0% 0%;
-  text-align:left;
+  text-align: left;
 }
 
-
 /* Bootsrap purple  */
+
 #skill-bootstrap {
   width: 20%;
   color: purple;
   margin: 0 auto;
 }
-#title-bootstrap{
+
+#title-bootstrap {
   font-family: 'Noto Serif', serif;
   width: 20%;
-  margin: 0 0 0 31%;
+  margin: 0 0 0 30%;
   color: white;
   text-transform: uppercase;
 }
+
 #info-bootstrap {
   font-family: 'Noto Serif', serif;
   background: purple;
   border-radius: 4px;
-  color:white;
+  color: white;
   font-size: 18px;
   padding: 10px 10px 10px 10px;
   margin: 5.4% 0% 0% 0%;
-  text-align:left;
+  text-align: left;
 }
 
 /* RUBY red  */
+
 #skill-ruby {
   width: 20%;
   color: red;
   margin: 0 auto;
 }
-#title-ruby{
+
+#title-ruby {
   font-family: 'Noto Serif', serif;
   width: 20%;
   margin: 0 0 0 41%;
   color: white;
   text-transform: uppercase;
 }
-#info-ruby{
+
+#info-ruby {
   font-family: 'Noto Serif', serif;
   background: red;
   border-radius: 4px;
-  color:white;
+  color: white;
   font-size: 18px;
   padding: 10px 10px 10px 10px;
-  margin: 5.4% 0% 0% 0%;
-  text-align:left;
+  margin: 5.4% 0 0 0;
+  text-align: left;
+}
+
+/*========================================================================
+                              ABOUT-ME
+========================================================================== */
+
+#about-bg-diagonal {
+  width: 50%;
+  height: 700px;
+  float: right;
+  background-image: url(../img/about-me/me-bg01.jpg);
+  border-left: 200px solid white;
+  border-top: 700px solid transparent;
+}
+
+#about-content-box {
+  float: left;
+  height: 700px;
+}
+
+#about-content-box-outer {
+  /* Takes full width & height of the parent element (about-content-box)  */
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#about-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about-me-title {
+  text-align: left;
+}
+
+#about .content-title-underline {
+  margin: 0 0 30px 0;
+}
+
+#about-info p {
+  margin-bottom: -15px;
 }
