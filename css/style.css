@@ -488,14 +488,13 @@ span {
                               ABOUT-ME
 ========================================================================== */
 #about-bg-diagonal {
-  width: 60%;
-  height: 700px;
+  width: 50%;
+  height: 1050px;
   float: right;
   background-image: url(../img/about-me/me-bg01.jpg);
-  border-left: 70px solid #ffec5a;
-  border-right: 70px solid #ffec5a;
+  border-left: 200px solid #ffec5a;
   border-top: 1050px solid transparent;
-  border-bottom: 20px solid #ffec5a;
+
 }
 
 #about-content-box {
