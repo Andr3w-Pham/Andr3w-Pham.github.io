@@ -9,8 +9,8 @@ Blue Bayoux : #64707b (Paragraphs)
 white : #fff (Text with Black Backgrounds)
 Black : #000
 /* #ffec5a */
-========================================================================== */
 
+==========================================================================*/
 /* General CSS */
 
 html, body {
@@ -303,7 +303,7 @@ span {
 
 .btn-blue {
   border-color: #0488f4;
-  color: #0488f4;
+  color: white;
   margin-top: 60px;
 }
 
@@ -364,6 +364,7 @@ span {
   padding: 60px 0px 60px 0px;
   background-color: #231E29;
 }
+
 .skill-item {
   /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
   padding: 20px 0 20px 0;
@@ -430,11 +431,11 @@ span {
   text-align: left;
 }
 
-/* Bootsrap purple  */
+/* Bootsrap #660099  */
 
 #skill-bootstrap {
   width: 20%;
-  color: purple;
+  color: #660099;
   margin: 0 auto;
 }
 
@@ -448,7 +449,7 @@ span {
 
 #info-bootstrap {
   font-family: 'Noto Serif', serif;
-  background: purple;
+  background: #660099;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -487,51 +488,107 @@ span {
 /*========================================================================
                               ABOUT-ME
 ========================================================================== */
-#about-bg-diagonal {
-  width: 50%;
-  height: 1050px;
-  float: right;
-  background-image: url(../img/about-me/me-bg01.jpg);
-  border-left: 200px solid #ffec5a;
-  border-top: 1050px solid transparent;
-
+.about-content-box {
+  padding: 60px 0px 60px 0px;
+  background-color: #333333;
 }
 
-#about-content-box {
-  float: left;
-  height: 1000px;
-  font-size: 18px;
-}
-
-#about-content-box-outer {
-  /* Takes full width & height of the parent element (about-content-box)  */
-  width: 100%;
-  height: 100%;
-  display: table;
-}
-
-#about-content-box-inner {
-  display: table-cell;
-  vertical-align: middle;
+.about-me-space {
+  /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
+  padding: 20px 0 20px 0;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
 
 #about-me-title {
+  color: white;
+}
+
+/* My Experience #00C600  */
+
+#experience-icon {
+  width: 20%;
+  color: #00C600;
+  margin: 0 auto;
+}
+
+#title-experience {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+#info-experience{
+  font-family: 'Noto Serif', serif;
+  background: #00C600;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 0 10px 10px 10px;
   text-align: left;
-  margin-top: 10%;
 }
 
-#about .content-title-underline {
-  margin: 0 0 30px 0;
+/* My Passion #0488f4  */
+
+#passion-icon{
+  width: 20%;
+  color: #0488f4;
+  margin: 0 auto;
 }
 
-#about-info p {
-  margin-bottom: -15px;
+#title-passion {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
 }
 
-#passion-info {
-  font-weight: bold;
-  font-size: 30px;
+#info-passion {
+  font-family: 'Noto Serif', serif;
+  background: #0488f4;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  margin: 1% 0 0 0;
+  text-align: left;
 }
+
+/* Display Picture #0488f4  */
+
+#display-pic-icon{
+  width: 20%;
+  color: #660099;
+  margin: 0 0 0 130px;
+}
+
+#title-display-pic {
+  font-family: 'Noto Serif', serif;
+  margin: 0 0 0 90px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#point-up {
+  margin: 0 0 30px 100px;
+}
+
+#info-display-pic {
+  font-family: 'Noto Serif', serif;
+  background: #660099;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  margin: 1% 0 0 0;
+  text-align: left;
+}
+
+#about-btn {
+  margin: 0 0 0 10px;
+}
+
 
 /*========================================================================
                             MY PROJECTS
