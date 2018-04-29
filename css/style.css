@@ -591,8 +591,38 @@ span {
   margin: 0 0 0 10px;
 }
 
+
+#about-me-img-wrapper {
+  overflow: hidden;
+}
+#about-me-img-wrapper img {
+  /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
+  transition: transform .5s ease;
+}
+#about-me-img-wrapper img:hover {
+  transform: scale(1.2);
+}
+
 /*========================================================================
                             MY PROJECTS
 ========================================================================== */
+/* Select all the columns of row and no gutter class  */
+.row.no-gutters [class*=col-] {
+  padding-left: 0;
+  padding-right: 0;
+}
 
-/*  */
+.img-wrapper {
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
+  transition: transform .5s ease;
+}
+
+/* magnifies image with ease with above property  */
+.img-wrapper img:hover {
+  transform: scale(1.2);
+
+}

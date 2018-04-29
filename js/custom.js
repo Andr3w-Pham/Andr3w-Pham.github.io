@@ -19,3 +19,39 @@ $(function() {
 
 
 });
+
+
+/*========================================================================
+                            ABOUT ME
+========================================================================== */
+$(function() {
+
+  $("#about-me").magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image'
+
+  });
+
+});
+
+
+/*========================================================================
+                            MY PROJECTS
+========================================================================== */
+/* Documentation: http://dimsemenov.com/plugins/magnific-popup/documentation.html
+2nd Option. From a group of elements with one parent */
+/* selected the id called work which happens to be the id of the work section */
+
+$(function() {
+
+  $("#work").magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    // adding comma after image & with the code below we set gallery to true for work section
+    gallery:{
+    enabled:true
+  }
+
+  });
+
+});
