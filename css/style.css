@@ -360,6 +360,7 @@ span {
 /*========================================================================
                                 Skills
 ========================================================================== */
+
 .skills-content-box {
   padding: 60px 0px 60px 0px;
   background-color: #231E29;
@@ -488,6 +489,7 @@ span {
 /*========================================================================
                               ABOUT-ME
 ========================================================================== */
+
 .about-content-box {
   padding: 60px 0px 60px 0px;
   background-color: #333333;
@@ -519,7 +521,7 @@ span {
   text-transform: uppercase;
 }
 
-#info-experience{
+#info-experience {
   font-family: 'Noto Serif', serif;
   background: #00C600;
   border-radius: 4px;
@@ -531,7 +533,7 @@ span {
 
 /* My Passion #0488f4  */
 
-#passion-icon{
+#passion-icon {
   width: 20%;
   color: #0488f4;
   margin: 0 auto;
@@ -557,7 +559,7 @@ span {
 
 /* Display Picture #0488f4  */
 
-#display-pic-icon{
+#display-pic-icon {
   width: 20%;
   color: #660099;
   margin: 0 0 0 130px;
@@ -589,8 +591,8 @@ span {
   margin: 0 0 0 10px;
 }
 
-
 /*========================================================================
                             MY PROJECTS
 ========================================================================== */
+
 /*  */
