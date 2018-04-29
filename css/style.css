@@ -601,6 +601,7 @@ span {
 }
 #about-me-img-wrapper img:hover {
   transform: scale(1.2);
+  cursor: zoom-in;
 }
 
 /*========================================================================
@@ -624,5 +625,6 @@ span {
 /* magnifies image with ease with above property  */
 .img-wrapper img:hover {
   transform: scale(1.2);
+  cursor: zoom-in;
 
 }
