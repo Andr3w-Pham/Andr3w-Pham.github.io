@@ -8,7 +8,7 @@ Steel Gray : #41464b (Heading)
 Blue Bayoux : #64707b (Paragraphs)
 white : #fff (Text with Black Backgrounds)
 Black : #000
-
+/* #ffec5a */
 ========================================================================== */
 
 /* General CSS */
@@ -340,7 +340,6 @@ span {
 
 .content-box {
   padding: 60px 0px 60px 0px;
-  background-color: #231E29;
 }
 
 .content-title h3 {
@@ -361,11 +360,14 @@ span {
 /*========================================================================
                                 Skills
 ========================================================================== */
-
+.skills-content-box {
+  padding: 60px 0px 60px 0px;
+  background-color: #231E29;
+}
 .skill-item {
   /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
   padding: 20px 0 20px 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   cursor: pointer;
 }
 
@@ -485,19 +487,21 @@ span {
 /*========================================================================
                               ABOUT-ME
 ========================================================================== */
-
 #about-bg-diagonal {
-  width: 50%;
+  width: 60%;
   height: 700px;
   float: right;
   background-image: url(../img/about-me/me-bg01.jpg);
-  border-left: 200px solid white;
-  border-top: 700px solid transparent;
+  border-left: 70px solid #ffec5a;
+  border-right: 70px solid #ffec5a;
+  border-top: 1050px solid transparent;
+  border-bottom: 20px solid #ffec5a;
 }
 
 #about-content-box {
   float: left;
-  height: 700px;
+  height: 1000px;
+  font-size: 18px;
 }
 
 #about-content-box-outer {
@@ -514,6 +518,7 @@ span {
 
 #about-me-title {
   text-align: left;
+  margin-top: 10%;
 }
 
 #about .content-title-underline {
@@ -523,3 +528,12 @@ span {
 #about-info p {
   margin-bottom: -15px;
 }
+
+#passion-info {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*========================================================================
+                            MY PROJECTS
+========================================================================== */
