@@ -55,3 +55,14 @@ $(function() {
   });
 
 });
+
+/*========================================================================
+                              TEST
+========================================================================== */
+/* Documentation for owl-carousel-2
+ https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html */
+$(function() {
+
+  $("#team-members").owlCarousel();
+
+});

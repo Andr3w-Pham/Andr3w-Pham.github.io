@@ -506,11 +506,11 @@ span {
   color: white;
 }
 
-/* My Experience #00C600  */
+/* My Experience #ff9d00  */
 
 #experience-icon {
   width: 20%;
-  color: #00C600;
+  color: #ff9d00;
   margin: 0 auto;
 }
 
@@ -523,7 +523,7 @@ span {
 
 #info-experience {
   font-family: 'Noto Serif', serif;
-  background: #00C600;
+  background: #ff9d00;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -628,3 +628,7 @@ span {
   cursor: zoom-in;
 
 }
+
+/*========================================================================
+                            TEST
+========================================================================== */
