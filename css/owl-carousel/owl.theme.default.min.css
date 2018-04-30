@@ -1,6 +1,8 @@
 /**
  * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
+ * Copyright (c) 2014 Owl
+  Modified work Copyright 2016-2018 David Deutsch
+  Permission is hereby granted, free of charge
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
 
@@ -18,7 +20,7 @@
   font-size: 14px;
   margin: 5px;
   padding: 4px 7px;
-  background: #D6D6D6;
+  background: #0488f4;
   display: inline-block;
   cursor: pointer;
   border-radius: 3px
@@ -56,5 +58,5 @@
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791
+  background: #0488f4
 }
