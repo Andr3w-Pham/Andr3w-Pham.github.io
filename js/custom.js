@@ -48,9 +48,9 @@ $(function() {
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     // adding comma after image & with the code below we set gallery to true for work section
-    gallery:{
-    enabled:true
-  }
+    gallery: {
+      enabled: true
+    }
 
   });
 
@@ -63,6 +63,15 @@ $(function() {
  https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html */
 $(function() {
 
-  $("#team-members").owlCarousel();
+  $("#team-members").owlCarousel({
+    /* Options Syntax: https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html */
+    items: 1,
+    smartSpeed: 700,
+    autoplay: true,
+    loop: true,
+    autoplayHoverPause: true
+
+
+  });
 
 });

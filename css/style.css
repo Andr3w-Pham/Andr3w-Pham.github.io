@@ -591,14 +591,15 @@ span {
   margin: 0 0 0 10px;
 }
 
-
 #about-me-img-wrapper {
   overflow: hidden;
 }
+
 #about-me-img-wrapper img {
   /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
   transition: transform .5s ease;
 }
+
 #about-me-img-wrapper img:hover {
   transform: scale(1.2);
   cursor: zoom-in;
@@ -607,7 +608,9 @@ span {
 /*========================================================================
                             MY PROJECTS
 ========================================================================== */
+
 /* Select all the columns of row and no gutter class  */
+
 .row.no-gutters [class*=col-] {
   padding-left: 0;
   padding-right: 0;
@@ -623,12 +626,68 @@ span {
 }
 
 /* magnifies image with ease with above property  */
+
 .img-wrapper img:hover {
   transform: scale(1.2);
   cursor: zoom-in;
-
 }
 
 /*========================================================================
-                            TEST
+                            TEAM-TEST
 ========================================================================== */
+
+.team-member {
+  /* 0 is for top&bottom, 15px for left&right  */
+  margin: 0 15px;
+}
+
+.team-member-info {
+  padding: 10px 0 30px 0
+}
+
+.team-member-info {
+  font-size: 100%;
+  font-weiht: 700;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+.team-member-designation {
+  color: #0488f4;
+  font-size: 100%;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+/*========================================================================
+                            SOCIAL
+========================================================================== */
+
+.social-list {
+  padding-left: 0px;
+}
+
+.social-list li {
+  /* removes bullet icons from lists  */
+  list-style: none;
+  /* displays social-icons on same line  */
+  display: inline-block;
+  width: 10%;
+  height: 10%;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.social-icon i {
+  font-size: 30px;
+}
+
+.icon-gray i {
+  color: #64707b;
+}
+
+.social-icon i:hover {
+  color: #0488f4;
+}
