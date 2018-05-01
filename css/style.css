@@ -2,14 +2,6 @@
 DEFAULT VALUES:
 
 Font Family : Roboto Condensed
-
-Greenish Blue : #0488f4 (Buttons, Icons, Links, & Background)
-Steel Gray : #41464b (Heading)
-Blue Bayoux : #64707b (Paragraphs)
-white : #fff (Text with Black Backgrounds)
-Black : #000
-/* #ffec5a */
-
 ==========================================================================*/
 /* General CSS */
 
@@ -21,245 +13,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-b h3 {
+h3 {
   text-transform: uppercase;
-}
-
-/*========================================================================
-                          Start of  Typer
-========================================================================== */
-
-#test1 {
-  text-align: left;
-  font-size: 1.25em;
-  font-family: monospace;
-  /* white-space:nowrap = Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered  */
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-}
-
-#test2 {
-  text-align: left;
-  font-size: 1.25em;
-  font-family: monospace;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-}
-
-#test3 {
-  text-align: left;
-  font-size: 1.25em;
-  font-family: monospace;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-}
-
-#test4 {
-  text-align: left;
-  font-size: 1.25em;
-  font-family: monospace;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-}
-
-span {
-  color: #fff;
-  font-weight: bold;
-}
-
-.line1 {
-  color: white;
-  text-shadow: 2px 2px black;
-  -webkit-animation: type .5s 1s steps(20, end) forwards;
-  -moz-animation: type .5s 1s steps(20, end) forwards;
-  -o-animation: type .5s 1s steps(20, end) forwards;
-  animation: type .5s 1s steps(20, end) forwards;
-}
-
-.cursor1 {
-  -webkit-animation: blink 1s 2s 2 forwards;
-  -moz-animation: blink 1s 2s 2 forwards;
-  -o-animation: blink 1s 2s 2 forwards;
-  animation: blink 1s 2s 2 forwards;
-}
-
-.line2 {
-  color: white;
-  text-shadow: 2px 2px black;
-  -webkit-animation: type .5s 4.25s steps(20, end) forwards;
-  -moz-animation: type .5s 4.25s steps(20, end) forwards;
-  -o-animation: type .5s 4.25s steps(20, end) forwards;
-  animation: type .5s 4.25s steps(20, end) forwards;
-}
-
-.cursor2 {
-  -webkit-animation: blink 1s 5.25s 2 forwards;
-  -moz-animation: blink 1s 5.25s 2 forwards;
-  -o-animation: blink 1s 5.25s 2 forwards;
-  animation: blink 1s 5.25s 2 forwards;
-}
-
-.line3 {
-  color: white;
-  text-shadow: 2px 2px black;
-  -webkit-animation: type .5s 7.5s steps(20, end) forwards;
-  -moz-animation: type .5s 7.5s steps(20, end) forwards;
-  -o-animation: type .5s 7.5s steps(20, end) forwards;
-  animation: type .5s 7.5s steps(20, end) forwards;
-}
-
-.cursor3 {
-  -webkit-animation: blink 1s 8.5s 2 forwards;
-  -moz-animation: blink 1s 8.5s 2 forwards;
-  -o-animation: blink 1s 8.5s 2 forwards;
-  animation: blink 1s 8.5s 2 forwards;
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-@-moz-keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-@-o-keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-@keyframes type {
-  to {
-    width: 17em;
-  }
-}
-
-/*========================================================================
-                             End of Typer
-========================================================================== */
-
-/*========================================================================
-                                  HOME
-========================================================================== */
-
-/* Testing Music  */
-
-#home {
-  height: 100%;
-  overflow-x: hidden;
-}
-
-#home-cover {
-  padding-top: 1%;
-  height: 100%;
-  width: auto;
-  background-image: url("../img/bg-home01-fotor.jpg");
-}
-
-#home-content-box {
-  width: 100%;
-  height: 100%;
-  display: table;
-}
-
-#home-content-box-inner {
-  /* table-cell: Allows the element to behave like a <td> element */
-  display: table-cell;
-  vertical-align: middle;
-  text-align: left;
-  padding: 10%;
-}
-
-#home-heading h3 {
-  color: white;
-  font-size: 48px;
-  font-weight: 700;
-  margin: -10px 0 50px 0;
-  font-family: 'Noto Serif', serif;
-  text-transform: uppercase;
-  text-shadow: 4px 4px black;
-  letter-spacing: 3px;
 }
 
 /*========================================================================
@@ -305,11 +60,14 @@ span {
   border-color: #0488f4;
   color: white;
   margin-top: 60px;
+  background-color: #0488f4;
 }
 
 .btn-blue:hover, .btn-blue:focus {
-  background-color: #0488f4;
+  border-color: black;
   color: white;
+  margin-top: 60px;
+  background-color: black;
 }
 
 /*========================================================================
@@ -350,11 +108,81 @@ span {
   */ margin: 0 0 30px 0;
 }
 
+/* .content-title-white h3{
+  color: white;
+
+} */
 .content-title-underline {
   width: 100px;
   height: 2px;
   background-color: #0488f4;
   margin: 0 auto 50px auto;
+}
+
+/*========================================================================
+                                  HOME
+========================================================================== */
+
+/* Testing Music  */
+
+#home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#home-cover {
+  padding-top: 1%;
+  height: 100%;
+  width: auto;
+  background-image: url("../img/bg-home01-fotor.jpg");
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  /* table-cell: Allows the element to behave like a <td> element */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding: 10%;
+}
+
+#home-heading h3 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  margin: -10px 0 50px 0;
+  font-family: 'Noto Serif', serif;
+  text-transform: uppercase;
+  text-shadow: 4px 4px black;
+  letter-spacing: 3px;
+}
+
+
+/*========================================================================
+                              ABOUT-ME
+========================================================================== */
+.about-myself {
+  max-width: 900px;
+  /* center align an element with margin  */
+  margin: 0 auto 0 auto;
+}
+.display-pic {
+  max-width: 200px;
+  /* center align an element with margin  */
+  margin: 0 auto 0 auto;
+}
+#title-experience, #title-passion, #title-quote {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+#about-btn {
+  margin: 0 0 50px 570px;
 }
 
 /*========================================================================
@@ -487,125 +315,6 @@ span {
 }
 
 /*========================================================================
-                              ABOUT-ME
-========================================================================== */
-
-.about-content-box {
-  padding: 60px 0px 60px 0px;
-  background-color: #333333;
-}
-
-.about-me-space {
-  /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
-  padding: 20px 0 20px 0;
-  margin-bottom: 40px;
-  cursor: pointer;
-}
-
-#about-me-title {
-  color: white;
-}
-
-/* My Experience #ff9d00  */
-
-#experience-icon {
-  width: 20%;
-  color: #ff9d00;
-  margin: 0 auto;
-}
-
-#title-experience {
-  font-family: 'Noto Serif', serif;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-}
-
-#info-experience {
-  font-family: 'Noto Serif', serif;
-  background: #ff9d00;
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  padding: 0 10px 10px 10px;
-  text-align: left;
-}
-
-/* My Passion #0488f4  */
-
-#passion-icon {
-  width: 20%;
-  color: #0488f4;
-  margin: 0 auto;
-}
-
-#title-passion {
-  font-family: 'Noto Serif', serif;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-}
-
-#info-passion {
-  font-family: 'Noto Serif', serif;
-  background: #0488f4;
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  padding: 10px 20px 10px 20px;
-  margin: 1% 0 0 0;
-  text-align: left;
-}
-
-/* Display Picture #0488f4  */
-
-#display-pic-icon {
-  width: 20%;
-  color: #660099;
-  margin: 0 0 0 130px;
-}
-
-#title-display-pic {
-  font-family: 'Noto Serif', serif;
-  margin: 0 0 0 90px;
-  color: white;
-  text-transform: uppercase;
-}
-
-#point-up {
-  margin: 0 0 30px 100px;
-}
-
-#info-display-pic {
-  font-family: 'Noto Serif', serif;
-  background: #660099;
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  padding: 10px 20px 10px 20px;
-  margin: 1% 0 0 0;
-  text-align: left;
-}
-
-#about-btn {
-  margin: 0 0 0 10px;
-}
-
-#about-me-img-wrapper {
-  overflow: hidden;
-}
-
-#about-me-img-wrapper img {
-  /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
-  transition: transform .5s ease;
-}
-
-#about-me-img-wrapper img:hover {
-  transform: scale(1.2);
-  cursor: zoom-in;
-}
-
-/*========================================================================
                             MY PROJECTS
 ========================================================================== */
 
@@ -630,35 +339,6 @@ span {
 .img-wrapper img:hover {
   transform: scale(1.2);
   cursor: zoom-in;
-}
-
-/*========================================================================
-                            TEAM-TEST
-========================================================================== */
-
-.team-member {
-  /* 0 is for top&bottom, 15px for left&right  */
-  margin: 0 15px;
-}
-
-.team-member-info {
-  padding: 10px 0 30px 0
-}
-
-.team-member-info {
-  font-size: 100%;
-  font-weiht: 700;
-  letter-spacing: 1px;
-  padding-top: 20px;
-}
-
-.team-member-designation {
-  color: #0488f4;
-  font-size: 100%;
-  font-weight: 700;
-  font-style: italic;
-  letter-spacing: 1px;
-  margin-top: 5px;
 }
 
 /*========================================================================

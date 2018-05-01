@@ -57,20 +57,15 @@ $(function() {
 });
 
 /*========================================================================
-                              TEST
+                              ABOUT
 ========================================================================== */
 /* Documentation for owl-carousel-2
  https://owlcarousel2.github.io/OwlCarousel2/docs/started-installation.html */
 $(function() {
 
-  $("#team-members").owlCarousel({
+  $("#about-slider").owlCarousel({
     /* Options Syntax: https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html */
-    items: 1,
-    smartSpeed: 700,
-    autoplay: true,
-    loop: true,
-    autoplayHoverPause: true
-
+    items: 1
 
   });
 
