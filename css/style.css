@@ -139,9 +139,6 @@ h3 {
 /*========================================================================
                                   HOME
 ========================================================================== */
-
-/* Testing Music  */
-
 #home {
   height: 100%;
   overflow-x: hidden;
@@ -334,7 +331,9 @@ h3 {
 /*========================================================================
                             MY PROJECTS
 ========================================================================== */
-
+.projects-content-box {
+  background-color: #231E29;
+}
 /* Select all the columns of row and no gutter class  */
 .img-wrapper {
   overflow: hidden;
@@ -355,12 +354,18 @@ h3 {
   cursor: zoom-in;
 }
 
+#my-projects-title {
+  color: white;
+}
+
 #terminal-app {
   text-align: left;
+  color: white;
 }
 
 #my-portfolio {
   text-align: left;
+  color: white;
 }
 /*========================================================================
                             SOCIAL
