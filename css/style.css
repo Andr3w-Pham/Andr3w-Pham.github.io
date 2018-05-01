@@ -120,6 +120,23 @@ h3 {
 }
 
 /*========================================================================
+                          Navigation
+========================================================================== */
+#logo {
+  background-repeat: no-repeat;
+  /* The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width.  */
+  max-width: 100%;
+}
+#nav {
+  position: fixed;
+  /* The top CSS property participates in specifying the vertical position of a positioned element.  */
+  top: 0;
+  /* The z-index property specifies the stack order of an element.
+  Note: z-index only works on positioned elements (position:absolute, position:relative, or position:fixed).  */
+  z-index: 4;
+}
+
+/*========================================================================
                                   HOME
 ========================================================================== */
 
@@ -332,8 +349,9 @@ h3 {
 .img-wrapper img {
   /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
   transition: transform .5s ease;
-  margin: 1% 0 50% 30%;
+  margin: 1% 0 15% 15%;
   max-width: 300px;
+  border: solid #0488f4
 }
 
 /* magnifies image with ease with above property  */
@@ -366,7 +384,7 @@ h3 {
   height: 10%;
   margin-right: 6px;
   margin-top: 10px;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .social-icon i {
@@ -381,18 +399,17 @@ h3 {
   color: #0488f4;
 }
 
+
 /*========================================================================
-                          Navigation
+                            SOCIAL
 ========================================================================== */
-#logo {
-  background-repeat: no-repeat;
-  max-width: 100%;
-}
-#nav {
-  position: fixed;
-  top: 0;
-  z-index: 4;
-}
+
+
+
+
+
+
+
 
 /*========================================================================
                           MEDIA QUERY
