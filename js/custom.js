@@ -44,7 +44,7 @@ $(function() {
 
 $(function() {
 
-  $("#work").magnificPopup({
+  $("#projects").magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     // adding comma after image & with the code below we set gallery to true for work section

@@ -332,7 +332,8 @@ h3 {
 .img-wrapper img {
   /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
   transition: transform .5s ease;
-  margin-top: 100px;
+  margin: 1% 0 50% 30%;
+  max-width: 300px;
 }
 
 /* magnifies image with ease with above property  */
