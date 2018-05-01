@@ -350,7 +350,7 @@ h3 {
   /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
   transition: transform .5s ease;
   margin: 1% 0 15% 15%;
-  max-width: 260px;
+  max-width: 300px;
   border: solid #0488f4
 }
 
