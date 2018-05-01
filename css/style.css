@@ -343,7 +343,7 @@ h3 {
 .img-wrapper img {
   /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
   transition: transform .5s ease;
-  margin: 1% 20% 10% 5%;
+  margin: 1% 15% 10% 1%;
   max-width: 350px;
   border: solid #0488f4
 }
