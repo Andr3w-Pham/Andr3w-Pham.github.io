@@ -29,7 +29,7 @@ I used https://fontawesome.com/ for my icons.
 ## Installation
 
 ### Requirements
-* Bootstrap (v3.3.7) More Stable Version.(https://getbootstrap.com/docs/3.3/getting-started/)
+* Bootstrap (https://getbootstrap.com/docs/4.1/getting-started/download/)
 
 * Fontawesome Version 5.0.10 (https://fontawesome.com/)
 
