@@ -336,12 +336,6 @@ h3 {
 ========================================================================== */
 
 /* Select all the columns of row and no gutter class  */
-
-.row.no-gutters [class*=col-] {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .img-wrapper {
   overflow: hidden;
 }
@@ -349,8 +343,8 @@ h3 {
 .img-wrapper img {
   /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
   transition: transform .5s ease;
-  margin: 1% 0 15% 15%;
-  max-width: 300px;
+  margin: 1% 20% 10% 5%;
+  max-width: 350px;
   border: solid #0488f4
 }
 
@@ -362,33 +356,23 @@ h3 {
 }
 
 #terminal-app {
-  text-align: center;
+  text-align: left;
 }
 
 #my-portfolio {
-  text-align: center;
+  text-align: left;
 }
 /*========================================================================
                             SOCIAL
 ========================================================================== */
+#social-icons {
+  margin: 0 auto 0 40%;
 
-.social-list {
-  padding-left: 0px;
-}
-
-.social-list li {
-  list-style: none;
-  display: inline-block;
-  text-align: center;
-  width: 10%;
-  height: 10%;
-  margin-right: 6px;
-  margin-top: 10px;
-  margin-left: 50px;
 }
 
 .social-icon i {
-  font-size: 30px;
+  font-size: 60px;
+  letter-spacing: 10px;
 }
 
 .icon-gray i {
@@ -405,6 +389,15 @@ h3 {
 ========================================================================== */
 #contact-me {
   text-align: center;
+
+}
+
+#follow {
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: 2%;
+
+
 }
 
 
