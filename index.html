@@ -32,6 +32,10 @@
   <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
 
+  <!-- W3 School  -->
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <!-- style CSS  -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -43,13 +47,22 @@
   <section id="home">
     <!-- refer to https://github.com/daneden/animate.css for Class name of animation  -->
     <!--class animated is pre-defined in animate.css -->
+
     <div id="home-cover" class="bg-parallax animated tada">
 
-      <!-- Music Test  -->
-      <iframe id="music" width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/410991585%3Fsecret_token%3Ds-ZTDdu&color=%23f0f2f3&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
-      <!-- Music Test  -->
-
       <div id="home-content-box">
+        <div class="w3-container">
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-black">Navigation!</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="#home" class="w3-bar-item w3-button">Home</a>
+              <a href="#about" class="w3-bar-item w3-button">About Me</a>
+              <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+              <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+              <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
+            </div>
+          </div>
+        </div>
 
         <div id="home-content-box-inner">
 
@@ -83,6 +96,19 @@
     <div id="about-cover">
 
       <div class="about-content-box">
+        <div class="w3-container">
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-black">Navigation!</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="#home" class="w3-bar-item w3-button">Home</a>
+              <a href="#about" class="w3-bar-item w3-button">About Me</a>
+              <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+              <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+              <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
+            </div>
+          </div>
+        </div>
+
 
         <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
           data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
@@ -100,11 +126,6 @@
                   <div id="about-me" class="about-myself">
                       <img class="display-pic" src="img/about-me/me.jpg" alt="andrew">
 
-                      <ul class="social-list">
-                        <li><a href="#" class="social-icon icon-gray"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#" class="social-icon icon-gray"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#" class="social-icon icon-gray"><i class="fab fa-google-plus-square"></i> </a></li>
-                      </ul>
 
                       <h3 id="title-experience">My Experience</h3>
                       <div class="content-title-underline"></div>
@@ -153,6 +174,18 @@
   <section id="skills">
 
     <div class="skills-content-box">
+      <div class="w3-container">
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-black">Navigation!</button>
+          <div class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button">About Me</a>
+            <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
+          </div>
+        </div>
+      </div>
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
         data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
       <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -256,6 +289,18 @@
   <section id="projects">
 
     <div class="content-box">
+      <div class="w3-container">
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-black">Navigation!</button>
+          <div class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button">About Me</a>
+            <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
+          </div>
+        </div>
+      </div>
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
         data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
       <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -269,77 +314,26 @@
         <!-- 1ST ROW  -->
         <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
 
-          <div class="col-md-3">
+          <div class="col-md-6">
             <div class="img-wrapper">
-              <a href="img/work/1.jpeg" title="Insert Description">
-                  <img src="img/work/1.jpeg" class="img-responsive" alt="Work">
+              <h3 id="terminal-app">Terminal App</h3>
+              <a href="img/project/project01.gif" title="Insert Description">
+                  <img src="img/project/project01.gif" class="img-responsive" alt="Work">
               </a>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-6">
             <div class="img-wrapper">
-              <a href="img/work/2.jpeg" title="Insert Description">
-                  <img src="img/work/2.jpeg" class="img-responsive" alt="Work">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="img-wrapper">
-              <a href="img/work/3.jpeg" title="Insert Description">
-                  <img src="img/work/3.jpeg" class="img-responsive" alt="Work">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="img-wrapper">
-              <a href="img/work/4.jpeg" title="Insert Description">
-                  <img src="img/work/4.jpeg" class="img-responsive" alt="Work">
+              <h3 id="my-portfolio">My Portfolio</h3>
+              <a href="img/project/project02.gif" title="Insert Description">
+                  <img src="img/project/project02.gif" class="img-responsive" alt="Work">
               </a>
             </div>
           </div>
 
         </div>
         <!-- END of 1ST ROW  -->
-
-        <!-- 2ND ROW  -->
-        <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-
-          <div class="col-md-3">
-            <div class="img-wrapper">
-              <a href="img/work/5.jpeg" title="Insert Description">
-                  <img src="img/work/5.jpeg" class="img-responsive" alt="Work">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="img-wrapper">
-              <a href="img/work/6.jpeg" title="Insert Description">
-                  <img src="img/work/6.jpeg" class="img-responsive" alt="Work">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="img-wrapper">
-              <a href="img/work/7.jpeg" title="Insert Description">
-                  <img src="img/work/7.jpeg" class="img-responsive" alt="Work">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="img-wrapper">
-              <a href="img/work/8.jpeg" title="Insert Description">
-                  <img src="img/work/8.jpeg" class="img-responsive" alt="Work">
-              </a>
-            </div>
-
-          </div>
-
 
         </div>
 
@@ -350,11 +344,61 @@
 
   </section>
 
+  <section id="contact">
+
+    <div class="content-box">
+      <div class="w3-container">
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-black">Navigation!</button>
+          <div class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#about" class="w3-bar-item w3-button">About Me</a>
+            <a href="#skills" class="w3-bar-item w3-button">Skills</a>
+            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
+          </div>
+        </div>
+      </div>
+      <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
+      data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
+      <div class="content-title wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <h3>Stay Connected</h3
+        <div class="content-title-underline"></div>
+      </div>
+
+
+      <div class="container">
+
+        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+          <div class="col-md-12"></div>
+          <ul class="social-list">
+            <li><a target="_blank" href="https://www.linkedin.com/in/andrew-pham-0349a615a/" class="social-icon icon-gray"><i class="fab fab fa-linkedin fa-7x"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/AndrewP90659762" class="social-icon icon-gray"><i class="fab fa-twitter-square fa-7x"></i></a></li>
+            <li><a target="_blank" href="https://github.com/Andr3w-Pham" class="social-icon icon-gray"><i class="fab fa-github fa-7x"></i> </a></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div> <!-- End of content-box -->
+
+  </section>
 
 
 
-  <!-- Temporary Space  -->
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
