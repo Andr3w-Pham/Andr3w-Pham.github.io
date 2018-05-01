@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.css">
 
   <!-- bootstrap CSS  -->
-  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
   <!-- animate CSS  -->
   <link rel="stylesheet" href="css/animate/animate.css">
@@ -39,9 +39,27 @@
   <!-- style CSS  -->
   <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body>
+  <!-- Navigation  -->
+  <section id="nav">
+    <div class="btn-group">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Navigation
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#home">Home</a>
+      <a class="dropdown-item" href="#about">About Me</a>
+      <a class="dropdown-item" href="#skills">Skills</a>
+      <a class="dropdown-item" href="#projects">Projects</a>
+      <a class="dropdown-item" href="#contact">Contact Me</a>
+      <img id="logo" src="img/my-logo.jpg" alt="logo">
+    </div>
+    </div>
+  </section>
+
   <!-- Home  -->
   <section id="home">
     <!-- refer to https://github.com/daneden/animate.css for Class name of animation  -->
@@ -49,20 +67,9 @@
 
     <div id="home-cover" class="bg-parallax animated tada">
 
+
       <div id="home-content-box">
-        <div class="w3-container">
-          <div class="w3-dropdown-hover">
-            <button class="w3-button w3-black">Navigation!</button>
-            <div class="w3-dropdown-content w3-bar-block w3-border">
-              <a href="#home" class="w3-bar-item w3-button">Home</a>
-              <a href="#about" class="w3-bar-item w3-button">About Me</a>
-              <a href="#skills" class="w3-bar-item w3-button">Skills</a>
-              <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-              <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
-              <img id="logo" src="img/my-logo.jpg" alt="logo">
-            </div>
-          </div>
-        </div>
+
 
         <div id="home-content-box-inner">
 
@@ -92,23 +99,12 @@
 
   </section>
 
+  <!-- About  -->
   <section id="about">
     <div id="about-cover">
 
       <div class="about-content-box">
-        <div class="w3-container">
-          <div class="w3-dropdown-hover">
-            <button class="w3-button w3-black">Navigation!</button>
-            <div class="w3-dropdown-content w3-bar-block w3-border">
-              <a href="#home" class="w3-bar-item w3-button">Home</a>
-              <a href="#about" class="w3-bar-item w3-button">About Me</a>
-              <a href="#skills" class="w3-bar-item w3-button">Skills</a>
-              <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-              <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
-              <img id="logo" src="img/my-logo.jpg" alt="logo">
-            </div>
-          </div>
-        </div>
+
 
 
         <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
@@ -175,19 +171,7 @@
   <section id="skills">
 
     <div class="skills-content-box">
-      <div class="w3-container">
-        <div class="w3-dropdown-hover">
-          <button class="w3-button w3-black">Navigation!</button>
-          <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="#about" class="w3-bar-item w3-button">About Me</a>
-            <a href="#skills" class="w3-bar-item w3-button">Skills</a>
-            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
-            <img id="logo" src="img/my-logo.jpg" alt="logo">
-          </div>
-        </div>
-      </div>
+
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
         data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
       <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -289,21 +273,6 @@
 
   <!-- Projects  -->
   <section id="projects">
-
-    <div class="content-box">
-      <div class="w3-container">
-        <div class="w3-dropdown-hover">
-          <button class="w3-button w3-black">Navigation!</button>
-          <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="#about" class="w3-bar-item w3-button">About Me</a>
-            <a href="#skills" class="w3-bar-item w3-button">Skills</a>
-            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
-            <img id="logo" src="img/my-logo.jpg" alt="logo">
-          </div>
-        </div>
-      </div>
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
         data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
       <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
@@ -351,19 +320,6 @@
   <section id="contact">
 
     <div class="content-box">
-      <div class="w3-container">
-        <div class="w3-dropdown-hover">
-          <button class="w3-button w3-black">Navigation!</button>
-          <div class="w3-dropdown-content w3-bar-block w3-border">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="#about" class="w3-bar-item w3-button">About Me</a>
-            <a href="#skills" class="w3-bar-item w3-button">Skills</a>
-            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="#contact" class="w3-bar-item w3-button">Contact Me</a>
-            <img id="logo" src="img/my-logo.jpg" alt="logo">
-          </div>
-        </div>
-      </div>
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
       data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
       <div class="content-title wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -400,7 +356,9 @@
 
 
   <!-- bootstrap JS  -->
-  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
   <!-- WOW JS (Requires jQuery Library so therefor we place it after jquery.js)  -->
   <script src="js/wow/wow.min.js"></script>
