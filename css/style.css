@@ -388,7 +388,11 @@ h3 {
   background-repeat: no-repeat;
   max-width: 100%;
 }
-
+.w3-button {
+  overflow: hidden;
+  poisition: fixed;
+  top: 0;
+}
 
 /*========================================================================
                           MEDIA QUERY
