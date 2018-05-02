@@ -52,7 +52,7 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-Copyright (c) 2018 Andrew Pham
+Copyright (c) 2018, Andrew Pham
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
