@@ -45,8 +45,6 @@ I used https://fontawesome.com/ for my icons.
 
 * WOW.js (https://mynameismatthieu.com/WOW/)
 
-* W3 School (https://www.w3schools.com/w3css/4/w3.css)
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
