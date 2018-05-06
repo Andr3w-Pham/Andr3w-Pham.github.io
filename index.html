@@ -22,8 +22,8 @@
   <!-- bootstrap CSS  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-  <!-- animate CSS  -->
-  <link rel="stylesheet" href="css/animate/animate.css">
+  <!-- animate-on-scroll (aos) CSS  -->
+  <link rel="stylesheet" href="css/aos/aos.css">
 
   <!-- magnific-popup CSS  -->
   <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
@@ -61,7 +61,7 @@
     <!-- refer to https://github.com/daneden/animate.css for Class name of animation  -->
     <!--class animated is pre-defined in animate.css -->
 
-    <div id="home-cover" class="bg-parallax animated tada">
+    <div id="home-cover" class="bg-parallax" data-aos="fade-down">
 
 
       <div id="home-content-box">
@@ -69,7 +69,7 @@
 
         <div id="home-content-box-inner">
 
-          <div id="home-heading" class="animated bounceInUp">
+          <div id="home-heading" data-aos="fade-down">
 
             <h3 id="name">Hi, I'm <br><br> Andrew Pham</h3>
 
@@ -77,7 +77,7 @@
           <!-- End of home-heading -->
 
           <!-- Using pre-defined btn classes from Bootstrap -->
-          <div id="home-btn" class="animated fadeInLeftBig">
+          <div id="home-btn" data-aos="fade-down">
             <a class="btn btn-lg btn-general btn-white" href="#about" role="button" title="Read More">Read More</a>
 
           </div>
@@ -103,19 +103,19 @@
 
           <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
           data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
-        <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="content-title" data-aos="fade-up">
           <h3 id="about-me-title">About Me</h3>
           <div class="content-title-underline"></div>
         </div>
 
         <div class="container">
 
-          <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="row" data-aos="fade-down">
 
             <div class="col-md-12">
               <div id="about-slider" class="about-me-space owl-carousel owl-theme">
                   <div id="about-me" class="about-myself">
-                      <img class="display-pic" src="img/about-me/me.jpg" alt="andrew">
+                      <img class="display-pic" src="img/about-me/me.jpg" alt="display-pic">
 
 
                       <h3 id="title-experience">My Experience</h3>
@@ -125,7 +125,7 @@
                   </div>
 
                   <div id="my-passion" class="about-myself">
-                      <img class="display-pic" src="img/about-me/me.jpg" alt="andrew">
+                      <img class="display-pic" src="img/about-me/me.jpg" alt="display-pic">
                       <h3 id="title-passion">My Passion in Life</h3>
                       <div class="content-title-underline"></div>
                       <p>One Word - Competition. <br><br> Let me explain, it's not about competing with others but oneself, always pushing myself above and beyond. <br><br> And striving to be a better version of myself every single day. <br><br> This applies to
@@ -134,7 +134,7 @@
                   </div>
 
                   <div id="quote" class="about-myself">
-                      <img class="display-pic" src="img/about-me/me.jpg" alt="andrew">
+                      <img class="display-pic" src="img/about-me/me.jpg" alt="display-pic">
                       <h3 id="title-quote">Inspirational Quote <br><br> That I Live By.</h3>
                       <div class="content-title-underline"></div>
                       <p>“You do what you can for as long as you can, and when you finally can’t, you do the next best thing. <br><br> You back up but you don’t give up.” ―Chuck Yeager</p>
@@ -150,7 +150,7 @@
         </div>
 
         <!-- Button for My Project  -->
-        <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <div id="about-btn" data-aos="fade-down">
           <a class="btn btn-lg btn-general btn-blue" href="#projects" role="button"> My Projects </a>
         </div>
         <!-- End -->
@@ -168,17 +168,17 @@
 
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
         data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
-      <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <div class="content-title" data-aos="slide-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="300" data-aos-delay="300">
         <h3 id="my-skills-title">What I've Learnt So Far</h3>
         <div class="content-title-underline"></div>
       </div>
 
       <div class="container">
 
-        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="row">
 
           <!-- Start of 1st icon  -->
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="300" data-aos-delay="1000">
             <div class="skill-item">
 
               <div id="skill-html5">
@@ -198,7 +198,7 @@
           <!-- End of 1st icon  -->
 
           <!-- Start of 2nd icon  -->
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="300" data-aos-delay="1200">
             <div class="skill-item">
 
               <div id="skill-css3">
@@ -216,9 +216,9 @@
           </div>
           <!-- End of 2nd icon  -->
         </div>
-        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="row">
           <!-- Start of 3rd icon  -->
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="300" data-aos-delay="1400">
             <div class="skill-item">
 
               <div id="skill-bootstrap">
@@ -237,7 +237,7 @@
           <!-- End of 3rd icon  -->
 
           <!-- Start of 4th icon  -->
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="300" data-aos-delay="1600">
             <div class="skill-item">
 
               <div id="skill-ruby">
@@ -268,9 +268,7 @@
   <!-- Projects  -->
   <section id="projects">
     <div class="projects-content-box">
-      <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
-        data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
-      <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+      <div class="content-title" data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="500">
         <h3 id="my-projects-title">My Projects</h3>
         <div class="content-title-underline"></div>
       </div>
@@ -279,9 +277,9 @@
       <div class="container-fluid">
 
 
-        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+        <div class="row">
 
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="1000">
             <div class="img-wrapper">
               <h3 id="terminal-app">Terminal Weather App</h3>
               <a href="img/project/project01.gif" title="Terminal Weather App">
@@ -290,7 +288,7 @@
             </div>
           </div>
 
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="700" data-aos-delay="1200">
             <div class="img-wrapper">
               <h3 id="my-portfolio">My Portfolio</h3>
               <a href="img/project/project02.gif" title="My Portfolio">
@@ -317,7 +315,7 @@
     <div class="content-box">
       <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
       data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
-      <div class="content-title wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+      <div class="content-title" data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="600">
         <h3 id="contact-me">Stay Connected</h3>
         <div class="content-title-underline"></div>
         <h4 id="follow">Follow Me On:</h4>
@@ -327,14 +325,15 @@
 
       <div class="container">
 
-        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="row">
 
-          <div class="col-md-12"></div>
+          <div class="col-md-12" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="1000">
             <div id="social-icons">
-            <a target="_blank" href="https://www.linkedin.com/in/andrew-pham-0349a615a/" class="social-icon icon-gray"><i class="fab fab fa-linkedin fa-7x"></i>
-            <a target="_blank" href="https://twitter.com/AndrewP90659762" class="social-icon icon-gray"><i class="fab fa-twitter-square fa-7x"></i>
-            <a target="_blank" href="https://github.com/Andr3w-Pham" class="social-icon icon-gray"><i class="fab fa-github fa-7x"></i>
+              <a target="_blank" href="https://www.linkedin.com/in/andrew-pham-0349a615a/" class="social-icon icon-gray"><i class="fab fab fa-linkedin fa-7x"></i>
+              <a target="_blank" href="https://twitter.com/AndrewP90659762" class="social-icon icon-gray"><i class="fab fa-twitter-square fa-7x"></i>
+              <a target="_blank" href="https://github.com/Andr3w-Pham" class="social-icon icon-gray"><i class="fab fa-github fa-7x"></i>
             </div>
+          </div>
 
         </div>
 
@@ -343,33 +342,38 @@
 
   </section>
 
+  <!-- jQuery & JS -->
+  <section id="jquery-js">
 
-  <!-- jquery before custom js because sequence matters  -->
-  <!-- jquery  -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jquery before custom js because sequence matters  -->
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-  <!-- Bootstrap is a free and open-source fron-end web development framework for designing websites and web applications.  -->
-  <!-- Bootstrap requires jQuery library therefore we place it after the jquery script  -->
+    <!-- Bootstrap is a free and open-source fron-end web development framework for designing websites and web applications.  -->
+    <!-- Bootstrap requires jQuery library therefore we place it after the jquery script  -->
 
 
-  <!-- bootstrap JS  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- bootstrap JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-  <!-- WOW JS (Requires jQuery Library so therefor we place it after jquery.js)  -->
-  <script src="js/wow/wow.min.js"></script>
+    <!-- aos JS (Requires jQuery Library so therefor we place it after jquery.js)  -->
+    <script src="js/aos/aos.js"></script>
 
-  <!-- magnific-popup JS  -->
-  <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- magnific-popup JS  -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- owl-carousel JS  -->
-  <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- owl-carousel JS  -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
 
-  <!-- smooth-scroll JS  -->
-  <script src="js/smooth-scroll/smooth-scroll.min.js"></script>
+    <!-- smooth-scroll JS  -->
+    <script src="js/smooth-scroll/smooth-scroll.min.js"></script>
 
-  <!-- custom JS  -->
-  <script src="js/custom.js"></script>
+    <!-- custom JS  -->
+    <script src="js/custom.js"></script>
+
+  </section>
+
 
 
 

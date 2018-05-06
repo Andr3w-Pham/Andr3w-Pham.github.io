@@ -1,6 +1,4 @@
-/*========================================================================
-                                SKILLS
-========================================================================== */
+
 /*
 $(document).ready(function() {
 
@@ -10,13 +8,19 @@ $(document).ready(function() {
 jQuery document.ready method.It's used to make a function available after the page is ready
 It is good place to have all the jQuery events & functions inside this document.ready method.
 
-*/
 
+/*========================================================================
+                                AOS
+========================================================================== */
 /* Equivalent to recommended way of calling document.ready() method */
 $(function() {
   // animate on scroll
-  new WOW().init();
-
+  AOS.init({
+     offset: 200,
+     duration: 600,
+     easing: 'ease-in-sine',
+     delay: 100,
+   });
 
 });
 
