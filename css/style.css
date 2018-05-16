@@ -245,6 +245,14 @@ a {
   text-align: center;
   color: white;
   text-transform: uppercase;
+  margin-top: 5%;
+}
+
+#skills-underline {
+  width: 100px;
+  height: 2px;
+  background-color: #0488f4;
+  margin: 0 auto 10% auto;
 }
 
 /* HTML5 #ff9d00  */
