@@ -37,13 +37,13 @@ I used https://fontawesome.com/ for my icons.
 
 * jQuery V3.3.1 (https://jquery.com/)
 
-* https://fonts.google.com/
-
-* Animate CSS (https://github.com/daneden/animate.css)
+* Google Fonts (https://fonts.google.com/)
 
 * Magnific-Popup (https://github.com/dimsemenov/Magnific-Popup)
 
-* WOW.js (https://mynameismatthieu.com/WOW/)
+* Animate on Scroll (AOS) (https://github.com/michalsnik/aos)
+
+* Smooth Scroll (https://github.com/cferdinandi/smooth-scroll)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
