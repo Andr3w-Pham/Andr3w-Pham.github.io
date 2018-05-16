@@ -209,10 +209,12 @@ a {
   /* center align an element with margin  */
   margin: 0 auto 0 auto;
 }
-.display-pic {
-  max-width: 200px;
-  /* center align an element with margin  */
-  margin: 0 auto 0 auto;
+#display-pic {
+  max-width: 35%;
+  margin: 0 0 5% 33%;
+  border: solid #0488f4;
+  border-radius: 30px;
+
 }
 #title-experience, #title-passion, #title-quote {
   text-align: center;
@@ -309,7 +311,7 @@ a {
 #title-bootstrap {
   font-family: 'Noto Serif', serif;
   width: 20%;
-  margin: 0 0 0 30%;
+  margin: 4% 0 0 30%;
   color: white;
   text-transform: uppercase;
 }
@@ -336,7 +338,7 @@ a {
 #title-ruby {
   font-family: 'Noto Serif', serif;
   width: 20%;
-  margin: 0 0 0 41%;
+  margin: 4% 0 0 41%;
   color: white;
   text-transform: uppercase;
 }
@@ -357,6 +359,7 @@ a {
 ========================================================================== */
 .projects-content-box {
   background-color: #231E29;
+  padding-top: 10%;
 }
 /* Select all the columns of row and no gutter class  */
 .img-wrapper {
@@ -396,7 +399,7 @@ a {
                             SOCIAL
 ========================================================================== */
 #social-icons {
-  margin: 0 auto 0 40%;
+  margin: 0 0 0 42%;
 
 }
 
@@ -426,9 +429,8 @@ a {
   text-align: center;
   margin-bottom: 1%;
   margin-top: 2%;
-
-
 }
+
 
 
 /*========================================================================
@@ -439,12 +441,22 @@ a {
     background-attachment: scroll;
   }
 
+  #social-icons {
+    margin: 0 0 0 28%;
+
+  }
+
 }
 
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #home-cover{
     background-attachment: scroll;
+  }
+
+  #social-icons {
+    margin: 0 0 0 28%;
+
   }
 
 }
