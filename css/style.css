@@ -411,6 +411,12 @@ a {
 
 }
 
+#social-icons a {
+  text-decoration: none;
+
+}
+
+
 .social-icon i {
   font-size: 60px;
   letter-spacing: 10px;
