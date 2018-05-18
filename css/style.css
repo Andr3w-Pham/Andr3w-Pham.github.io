@@ -34,7 +34,7 @@ h3 {
   border-width: 2px;
   border-radius: 0;
   /* Padding is used to create space in the anchor element "[READ MORE]".(Padding format: TOP, RIGHT, BOTTOM, LEFT) */
-  padding: 12px 26px 12px 26px font-size: 16px;
+
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -412,7 +412,6 @@ a {
 
 }
 
-
 .social-icon i {
   font-size: 60px;
   letter-spacing: 10px;
@@ -426,6 +425,9 @@ a {
   color: #0488f4;
 }
 
+#contact-btn {
+  margin: 0 0 0 44%;
+}
 
 /*========================================================================
                             CONTACT
@@ -450,8 +452,19 @@ a {
   }
 
   #social-icons {
-    margin: 0 0 0 28%;
+    margin: 0 0 0 30%;
 
+  }
+
+  .img-wrapper img {
+    transition: transform .5s ease;
+    margin: 0 0 15% 0;
+    max-width: 350px;
+    border: solid #0488f4;
+  }
+
+  #contact-btn {
+    margin: 0 0 0 30%;
   }
 
 }
@@ -463,8 +476,19 @@ a {
   }
 
   #social-icons {
-    margin: 0 0 0 28%;
+    margin: 0 0 0 25%;
 
+  }
+
+  .img-wrapper img {
+    transition: transform .5s ease;
+    margin: 0 0 15% 0;
+    max-width: 350px;
+    border: solid #0488f4;
+  }
+
+  #contact-btn {
+    margin: 0 0 0 30%;
   }
 
 }
@@ -474,6 +498,24 @@ a {
   #home-cover {
     background-attachment: scroll;
   }
+
+  #social-icons {
+    margin: 0 0 0 24%;
+
+  }
+
+  .img-wrapper img {
+    transition: transform .5s ease;
+    margin: 0 0 15% 0;
+    max-width: 350px;
+    border: solid #0488f4;
+  }
+
+  #contact-btn {
+    margin: 0 0 0 28%;
+  }
+
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
