@@ -16,7 +16,9 @@ It is good place to have all the jQuery events & functions inside this document.
 $(function() {
   // animate on scroll
   AOS.init({
-     delay: 100,
+    offset: 200,
+    duration: 600,
+    delay: 300,
    });
 
 });
