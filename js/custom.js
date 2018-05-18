@@ -16,7 +16,6 @@ It is good place to have all the jQuery events & functions inside this document.
 $(function() {
   // animate on scroll
   AOS.init({
-     easing: 'ease-in-sine',
      delay: 100,
    });
 
